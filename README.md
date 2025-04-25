@@ -9,8 +9,9 @@ The extension, which in addition to the LCD also contains an ESP32 processor, ha
 Will illustrate below with CG images (computer generated) a roasting session progress.  
 I would like to emphasize that all control is done manually from the original Skywalker control panel.
 
-When starting, or at rest between roasting sessions, the screen shows the following information: status (Idle), time, temperature, RoR, power and air.
+When starting, or at rest between roasting sessions, the screen shows the following information: status (Idle), time, temperature, RoR, power and air.  
 <picture>https://i.imgur.com/cOFh6mj.png</picture>
+
 The bottom-right empty space is reserved for two dynamic content temporary fields, whose meaning will change at each phase of roasting.
 
 Start the preheat, using the dedicated button on the roaster control panel, this is automatically detected by Roast Assistant (RA), and the information changes as below:
