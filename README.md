@@ -14,16 +14,17 @@ When starting, or at rest between roasting sessions, the screen shows the follow
 
 The bottom-right empty space is reserved for two dynamic content temporary fields, whose meaning will change at each phase of roasting.
 
-Start the preheat, using the dedicated button on the roaster control panel, this is automatically detected by Roast Assistant (RA), and the information changes as below:
-[img]https://i.imgur.com/9VgoThC.png[/img]
+Start the preheat, using the dedicated button on the roaster control panel, this is automatically detected by Roast Assistant (RA), and the information changes as below:  
+![Imgur Image](https://i.imgur.com/9VgoThC.png)
 
 When the desired charge temperature has been reached and stabilized, we charge the beans, and the timer is reset, marking the beginning of roasting.  
-A little further on we have the TP. Both charging and TP automatically detected.
-[img]https://i.imgur.com/g2hcTep.png[/img] [img]https://i.imgur.com/yfWHs8F.png[/img]
+A little further on we have the TP. Both charging and TP automatically detected.  
+![Imgur Image](https://i.imgur.com/g2hcTep.png) ![Imgur Image](https://i.imgur.com/yfWHs8F.png)
+
 A small detail that is still important, let's not forget to signal to the skywalker controller too, that the roast has started, by double R, when the charge is detected, if your roast control panel is one of the early models and lacks auto-detection...  we don't want to forget forever the roaster in the preheat mode, will shutdown after 15 minutes !!!
 
-... drying phase begins... and the left bottom empty space on the display is filled with the information about TP time, as well as a Dry End estimator, which changes dynamically, and stabilizes at a reasonably accurate value after minute 2.
-[img]https://i.imgur.com/OY1o7aS.png[/img]
+... drying phase begins... and the left bottom empty space on the display is filled with the information about TP time, as well as a Dry End estimator, which changes dynamically, and stabilizes at a reasonably accurate value after minute 2.  
+![Imgur Image](https://i.imgur.com/OY1o7aS.png)
 
 The DE prediction is quite realistic, in the 5-10 seconds ballpark around the display estimate.
 In addition to the DE predictor, we have here a new piece of information that helps us control during drying, more exactly the character after the RoR value, which can be ^, _ or nothing.
@@ -32,9 +33,9 @@ An inflection is signaled about 3-4 seconds before it visibly occurs, and the fi
 Basically, during the drying phase we should only see an upward trend, that is, ^, or nothing, which indicates a flattening in the RoR increase.  
 Any appearance of the _ sign, which indicates a dip in RoR, which lasts more than 5 seconds, would require increasing the power.
 
-After the drying phase ends, browning phase follows, with the two temporary fields changing the meaning. 
-The lower will store the DE event, the real one, not the predicted, and the field above will show a FC predictor.
-[img]https://i.imgur.com/FOKyuii.png[/img]
+After the drying phase ends, browning phase follows, with the two temporary fields changing the meaning.  
+The lower will store the DE event, the real one, not the predicted, and the field above will show a FC predictor.  
+![Imgur Image](https://i.imgur.com/FOKyuii.png)
 
 The RoR evolution trend this time will have to be permanently falling, i.e. marked with _
 Any attempt of RoR increase, signaled with ^, and lasting more than 5 seconds, should alert us to decrease power, or increase air, or both.
@@ -42,8 +43,8 @@ Any attempt of RoR increase, signaled with ^, and lasting more than 5 seconds, s
 The FC prediction is not as accurate as DE, primarily because in DE detection I follow a fixed temperature, while FC can be anywhere in a range of about 7 degrees, depending on the beans origin. 
 The reference I am using in prediction computation is the temperature of 182 C degrees, where I have FC in 3/4 of the cases.
 
-After FC, the meaning of temporary fields changes again, showing us development time, both as a time value and as a ratio, i.e. percentage:
-[img]https://i.imgur.com/yKOQwQb.png[/img]
+After FC, the meaning of temporary fields changes again, showing us development time, both as a time value and as a ratio, i.e. percentage:  
+![Imgur Image](https://i.imgur.com/yKOQwQb.png)
 
 ... based on this information, as well as the evolution of RoR, we will make the decision to drop.
 This means opening the door to let the beans flow, followed as fast as possible by long pressing R(oast) on the skywalker controller, otherwise the heat is not cut. The drop is automatically detected on the display.  
