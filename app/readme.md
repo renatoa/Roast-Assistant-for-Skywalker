@@ -3,7 +3,7 @@ https://github.com/greencardigan/TC4-shield/tree/master/applications/Artisan/TC4
 
 It can be operated exclusivelly with a connection to the ESP32 board that is part of RoastAsistant project, or other data source delivering over classic BT (not BLE) a slightly modified TC4 packet, as below:  
 AT, ET, BT, R2R, RoR, HTR, FAN, CNT, Phase; where:  
-- AT = mabient temperature,
+- AT = ambient temperature,
 - ET = Envir/exhaust temp,
 - BT = beans temp,
 - R2R = optional RoR trend, i.e second derivative of temp; if this data not available then zero value 
