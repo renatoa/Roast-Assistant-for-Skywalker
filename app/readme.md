@@ -24,7 +24,8 @@ Press "Connect a device", and select the "AKROASTER" from paired devices list. T
 From there anything happens almost unattended, the app will watch for CHARGE event, start logging, display roasting info and progress, and compute various event estimators.  
 During Dry phase you can mark the Dry End event by tapping the status button. Same for FC start, during Brown phase.  
 When roast ends, one minute after Cooling phase started, an Artisan compatible .csv log file will be saved in the phone /Roast folder.  
-Also, an image file of the graph, with roast statistics in the title
+Also, with same name will find there an image file of the graph, with roast statistics in the title.  
+If something goes wrong a debug file can be found in the DbgLog folder.
 
 More about screen areas info will follow later.  
 The app is stil in development, the loading and roasting using saved profiles is still work in progress.
