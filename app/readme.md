@@ -1,4 +1,4 @@
-This Android app is part of Roast Assistant for Skywalker package, and it's a fork of an Adroid app for TC4, that can be found here:  
+This Android app is part of Roast Assistant for Skywalker package, and it's a Skywalker optimized of the greencardigan TC4 Adroid app, forked from here:  
 https://github.com/greencardigan/TC4-shield/tree/master/applications/Artisan/TC4_Android/trunk/src/TC4/src/com/greencardigan/tc4
 
 It can be operated exclusivelly with a connection to the ESP32 board that is part of RoastAsistant project, or other data source delivering over classic BT (not BLE) a slightly modified TC4 packet, as below:  
