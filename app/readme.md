@@ -8,15 +8,15 @@ AT, ET, BT, R2R, RoR, HTR, FAN, CNT, Phase; where:
 - ET = Envir/exhaust temp,
 - BT = beans temp,
 - R2R = optional RoR trend, i.e second derivative of temp; if this data not available then zero value 
-- RoR = Rate of Rise,
+- RoR = Rate of change of temperature probe,
 - HTR = heater, as %,
 - FAN = fan, as %,
-- CNT = roast process counter,
+- Count = roast process counter,
 - Phase = a numeric code of roast process phase: 0 = Idle, 1 = Preheat, then CHARGE, TP, DRY, Brown, Dev, Cool
 
 To start, launch the app.  
 If BT not active, will be asked to start it.  
-Press leftmost phone navigation bar button (Overview/Recents). A menu bar will open, with three choices:  
+Press three dots menu button. or leftmost phone navigation bar button (Overview/Recents). A menu bar will open, with three choices:  
 - Connect a device
 - Load Last
 - Load a profile
