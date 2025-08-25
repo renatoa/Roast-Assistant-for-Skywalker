@@ -31,4 +31,4 @@ If something goes wrong a debug file can be found in the DbgLog folder.
 Below there is an app screen, more about screen areas info will follow later.  
 The app is stil in development, the loading and roasting using saved profiles is still work in progress.
 
-(https://github.com/renatoa/Roast-Assistant-for-Skywalker/blob/main/app/RA4SW%20app%202025-06-26.jpeg)
+![Roast Assistant app](https://github.com/renatoa/Roast-Assistant-for-Skywalker/blob/main/app/RA4SW%20app%202025-06-26.jpeg)
