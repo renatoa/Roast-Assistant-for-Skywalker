@@ -28,5 +28,7 @@ When roast ends, one minute after Cooling phase started, an Artisan compatible .
 Also, with same name will find there an image file of the graph, with roast statistics in the title.  
 If something goes wrong a debug file can be found in the DbgLog folder.
 
-You have attached an app screen, more about screen areas info will follow later.  
+Below there is an app screen, more about screen areas info will follow later.  
 The app is stil in development, the loading and roasting using saved profiles is still work in progress.
+
+(https://github.com/renatoa/Roast-Assistant-for-Skywalker/blob/main/app/RA4SW%20app%202025-06-26.jpeg)
